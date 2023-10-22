@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+/*-----Шапка-----*/
+header{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+    padding: 25px;
+    background-color: #340042;
+}
+header h3,h4{
+    color: #f3f3f3;
+}
+/*-----Конец шапка-----*/
+
+main{
+    display: grid;
+    justify-items:center;
+    background-color: #4d4d4d;
+}
+
+/*-----Картина Пита Мондриана-----*/
+.container_1{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22% 12%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    margin-top: 30px;
+}
+.item{
+    border: 2px solid black;
+    padding: 30px;
+}
+.item_1{
+    grid-column: 1/3;
+}
+.item_5{
+    grid-column: 1/3;
+}
+.item_6{
+    grid-column: 3/5;
+}
+.item_7{
+    grid-column: 5;
+    grid-row: 2/4;
+}
+.item_8{
+    grid-column: 1/3;
+}
+.item_9{
+    grid-column: 3/5;
+    grid-row: 3/5;
+}
+.item_10{
+    grid-column: 1/3;
+}
+.item_11{
+    grid-column: 5;
+    grid-row: 4/6;
+}
+.item_12{
+    grid-column: 1;
+    grid-row: 5/7;
+}
+.item_13{
+    grid-column: 2;
+    grid-row: 5/7;
+}
+.item_14{
+    grid-column: 3/5;
+    grid-row: 5/7;
+}
+/*-----Конц картины Пита Мондриана-----*/
+
+/*-----Работа Яна Чихольда-----*/
+.container_2{
+    display: grid;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: #d7d7d7;
+}
+.container_2 a{
+    font-family: 'Martian Mono', monospace;
+    color: #515151;
+}
+.text_1 a{
+    font-size: 23px;
+    text-align: justify;
+}
+.text_2 a{
+    font-size: 50px;
+    font-weight: 900;
+}
+.text_3 a{
+    font-size: 23px;
+}
+.text_4 a{
+    font-size: 23px;
+}
+.item_1_1{
+    grid-column: 4/6;
+    grid-row: 1;
+}
+.item_1_2{
+    grid-column: 4/6;
+    grid-row: 2;
+}
+.item_1_3{
+    grid-column: 4/6;
+    grid-row: 3;
+}
+.item_1_4{
+    grid-column: 1/4;
+    grid-row: 6;
+    margin-top: 50px;
+}
+.item_1_5{
+    grid-column: 1/3;
+    grid-row: 7;
+}
+.item_1_6{
+    grid-column: 3/6;
+    grid-row: 8;
+    margin-top: 80px;
+}
+.item_1_7{
+    grid-column: 3/6;
+    grid-row: 9;
+}
+/*-----Конец работы Яна Чихольда-----*/
